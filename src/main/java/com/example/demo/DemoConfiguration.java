@@ -13,7 +13,7 @@ public class DemoConfiguration {
 	@RequestMapping("/")
 	public List<Demo> retrieveAllCourses() {
 		return Arrays.asList(new Demo(1, "Learn AWS", "Pradeep"), new Demo(2, "Learn DevOps", "Pradeep"),
-				new Demo(3, "Learn Azure", "Pradeep"));
+				new Demo(3, "Learn Azure", "Pradeep"),new Demo(4, "Codefresh", "Pradeep"));
 	}
 
 }
