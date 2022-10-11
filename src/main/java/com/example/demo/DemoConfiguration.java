@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoConfiguration {
 
 
-	@RequestMapping("/demo")
+	@RequestMapping("/")
 	public List<Demo> retrieveAllCourses() {
 		return Arrays.asList(new Demo(1, "Learn AWS", "Pradeep"), new Demo(2, "Learn DevOps", "Pradeep"),
 				new Demo(3, "Learn Azure", "Pradeep"));
